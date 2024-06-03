@@ -1,0 +1,45 @@
+.left-container{
+    width: 367px;
+    height: 560px;
+    overflow: auto;
+    overflow-x: hidden;
+    padding-top: 1em;
+    background-color: #ffffff;
+   
+}
+
+.combined{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+
+.title-input{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    top: 20px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    place-items: center; 
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #ffffff;
+    margin-left: 20em;
+
+}
+
+.input{
+    border: none;
+    width: 100%;
+}
+
+.input:focus{
+    border: none;
+    outline: none;
+
+}

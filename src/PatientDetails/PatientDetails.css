@@ -1,0 +1,254 @@
+.patient-details-container{
+    width: 100%;
+    display: flex;
+}
+
+.sub-upper-container1{
+    width: 740px;
+    height: 665px;
+    margin-bottom: 2em;
+    background-color: #FFFFFF;
+    padding: 1em;
+}
+
+.diag-history{
+    margin-bottom: 1em;
+}
+
+.graph-part{
+    width: 100%;
+    height: 298px;
+    display: flex;
+    background-color: #F4F0FE;
+    border-radius: 10px;
+}
+
+.graph{
+    width: 500px;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.result-output{
+    width: 200px;
+    height: 180px;
+    padding: 0 15px;
+    padding-top: 5px;
+}
+hr{
+    margin-block: 15px;
+}
+
+.circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #E66FD2;
+}
+
+.sys-circle{
+    width: 70px;
+    height: 20px;
+    display: flex;
+    place-items: center;
+    gap: 2px;
+}
+
+.sys{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.rate{
+    font-weight: 700;
+    margin-block: 5px;
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8C6FE6;
+}
+
+.respiratory{
+    width: 220px;
+    height: 242px;
+    background-color: #E0F3FA;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.temperature, .heart-rate{
+    width: 220px;
+    height: 242px;
+    background-color: #FFE6E9;
+    border-radius: 10px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.res-rate-result{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.levels{
+    font-size: small;
+}
+
+.heart-rate-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.sub-bottom-container1{
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: left;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.diagnostic-header{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    padding: 0 20px;
+    width: 726px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #F6F7F8;
+    color: #516772;
+}
+
+.diag-list-title{
+    width: 100%;
+    padding-left: 1em;
+    margin-block: 1em 1.5em;
+}
+
+.first-diag{
+    width: 723px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-block: 2em;
+
+}
+
+.diag-list-body{
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.header2{
+    margin-right: 10em;
+}
+
+.header3{
+    margin-right: 3em;
+}
+
+.status1{
+    width: 100px;
+}
+.diag-list-body-inner{
+    font-size: x-small;
+}
+
+.container1{
+    width: 100%;
+    padding: 0 1.5em;
+    
+}
+
+.container2{
+    width: 100%;
+    border-radius: 10px;
+  
+    
+}
+
+.image-name{
+    width: 100%;
+    text-align: center;
+}
+
+.date-of-birth{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.d0b{
+    font-size: small;
+    
+}
+
+.dob-value{
+    font-weight: 600;
+}
+
+.bottom-details{
+    margin-top: 2em;
+}
+
+.show-all{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #01F0D0;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 3em;
+
+}
+
+.container2-top{
+    width: 100%;
+    height: 590px;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.bottom-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.container2-bottom{
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    margin-top: 2em;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.analysis-result{
+    overflow: auto;
+    overflow-x: hidden;
+    height: 200px;
+}
+
+.result-show{
+    margin-bottom: 1em;
+}
