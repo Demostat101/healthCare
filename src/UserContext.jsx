@@ -4,6 +4,8 @@ import { PASSWORD } from "./Keys";
 import PatientDisplay from "./PatientDisplay/PatientDisplay";
 import PatientDetails from "./PatientDetails/PatientDetails";
 
+
+
 let context = createContext();
 
 export const patientContext = () => {
@@ -28,8 +30,10 @@ export const UserContext = ({ children }) => {
 
       const filteredItems = response.filter(
         (dataValue) =>
-          dataValue.name.toLowerCase().indexOf(value.toLowerCase()) !== -1
+          dataValue.name.toLowerCase().indexOf(value.toLowerCase()) !== -1 
+        
       );
+  
 
       setQuery(filteredItems);
 
@@ -50,7 +54,7 @@ export const UserContext = ({ children }) => {
 
   const filteredItems = query.filter(
     (dataValue) =>
-      dataValue.name.toLowerCase().indexOf(value.toLowerCase()) !== -1
+      dataValue.name.toLowerCase().indexOf(value.toLowerCase()) !== -1 || dataValue.age.toString().indexOf(value.toString()) !== -1 || dataValue.gender.toLowerCase()===(value.toLowerCase())
   );
 
   const filteredData = (products, query) => {
@@ -76,6 +80,7 @@ export const UserContext = ({ children }) => {
   };
 
   const result = filteredData(value, query);
+ 
 
   // individual details
 

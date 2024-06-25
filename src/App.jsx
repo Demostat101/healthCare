@@ -4,6 +4,7 @@ import NavBar from "./component/NavBar/NavBar";
 import Patients from "./component/Patients/Patients";
 
 function App() {
+
   return (
     <div className="app-jsx-container">
       <BrowserRouter>
