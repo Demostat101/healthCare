@@ -6,7 +6,8 @@ import Patients from "./component/Patients/Patients";
 function App() {
 
   return (
-    <div className="app-jsx-container">
+    <div className="original-width">
+      <div className="app-jsx-container">
       <BrowserRouter>
         <NavBar />
 
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Patients />} />
         </Routes>
       </BrowserRouter>
+    </div>
     </div>
   );
 }
